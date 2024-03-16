@@ -1,9 +1,9 @@
 +++
 title = 'Temp'
-date = 2024-03-16T11:00:54+03:30
+date = 2024-03-16T11:37:16+03:30
 draft = false
 +++
 
-This is sample1.
+hello world.
 
-and this my last text
+this is sample1
