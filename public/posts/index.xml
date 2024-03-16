@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Graphic Tracer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 11:37:16 +0330</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2024 11:44:12 +0330</lastBuildDate>
     <atom:link href="https://ali-rj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temp2</title>
+      <link>https://ali-rj.github.io/posts/temp2/</link>
+      <pubDate>Sat, 16 Mar 2024 11:44:12 +0330</pubDate>
+      <guid>https://ali-rj.github.io/posts/temp2/</guid>
+      <description>This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
     <item>
       <title>Temp</title>
       <link>https://ali-rj.github.io/posts/temp/</link>
