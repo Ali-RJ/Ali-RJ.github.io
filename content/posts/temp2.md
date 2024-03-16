@@ -2,8 +2,6 @@
 title = 'Temp2'
 author = 'Ali'
 date = 2024-03-16T11:44:12+03:30
-[cover]
-    image = images/cover.jpg
 draft = false
 +++
 
