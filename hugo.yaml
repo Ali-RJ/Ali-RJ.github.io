@@ -2,3 +2,17 @@ baseURL: https://ali-rj.github.io/
 languageCode: en-us
 title: Graphic Tracer
 theme: ["PaperMod"]
+params:
+  homeInfoParams:
+    Title: "I'm Ali Rajabi, a Software Engineer"
+    Content: >
+      I am a Software Engineer interested in Computer Graphics and all sorts of
+      low level programming. Want to learn more about me? Then head over to the "[About Me]"
+      (#about)
+  socialIcons:
+    - name: github
+      title: My Github Profile
+      url: "https://github.com/Ali-RJ"
+    - name: Linkedin
+      title: My LinkedIn Profile
+      url: "https://www.linkedin.com/in/ali-a-rajabi-111506211/"
