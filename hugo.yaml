@@ -16,9 +16,9 @@ menu:
       url: tags/
       weight: 10
     - name: About
-      url: tags/
+      url: about/
     - name: Github
-      url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+      url: https://github.com/Ali-RJ
 
 params:
   homeInfoParams:
