@@ -1,9 +1,11 @@
 +++
-title = 'My First Post'
-date = 2024-03-15T20:59:00+03:30
-draft = false
+title = 'About'
+layout = "about"
+summary: "Hello, it's me."
+showtoc: false
+showReadingTime: false
+noComment: true
+disableShare: true
 +++
 
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
+My about page.
