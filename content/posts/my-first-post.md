@@ -1,12 +1,6 @@
 +++
 title = 'About'
-layout = "about"
-url =
-summary = "Hello, it's me."
-showtoc = false
-showReadingTime = false
-noComment = true
-disableShare = true
+layout = 'about'
 +++
 
 My about page.
