@@ -20,6 +20,12 @@ menu:
     - name: Github
       url: https://github.com/Ali-RJ
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   homeInfoParams:
     Title: "I'm Ali Rajabi, a Software Engineer"
