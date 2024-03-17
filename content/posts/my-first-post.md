@@ -1,6 +1,6 @@
 +++
-title = 'About'
-layout = 'about'
+title = 'sada'
+layout = 'fasfasfas'
 +++
 
 My about page.

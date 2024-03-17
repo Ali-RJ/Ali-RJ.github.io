@@ -1,6 +1,6 @@
 +++
 title = 'About'
-draft = false
+searchHidden = true
 +++
 
-This is my about page.
+sample text
