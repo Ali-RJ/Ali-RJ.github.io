@@ -6,7 +6,7 @@ theme: ["PaperMod"]
 
 menu:
   main:
-    - name: Archive
+    - name: Archives
       url: archives
       weight: 5
     - name: Search
