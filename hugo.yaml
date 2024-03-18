@@ -4,15 +4,15 @@ title: Graphic Tracer
 paginate: 5
 theme: ["PaperMod"]
 
-enableInlineShortcodes: true
-enableRobotsTXT: true
-buildDrafts: true
-buildFuture: true
-buildExpired: false
-enableEmoji: false
+# enableInlineShortcodes: true
+# enableRobotsTXT: true
+# buildDrafts: true
+# buildFuture: true
+# buildExpired: false
+# enableEmoji: false
 
-hidemeta: true
-hideSummary: true
+# hidemeta: true
+# hideSummary: true
 
 menu:
   main:
@@ -42,8 +42,7 @@ params:
     Title: "I'm Ali Rajabi, a Software Engineer"
     Content: >
       I am a Software Engineer interested in Computer Graphics and all sorts of
-      low level programming. Want to learn more about me? Then head over to the "[About Me]"
-      (#about)
+      low level programming. Want to learn more about me? Then head over to the **[About Me](/about)**.
   socialIcons:
     - name: Email
       title: Emial
@@ -54,3 +53,16 @@ params:
     - name: Linkedin
       title: My LinkedIn Profile
       url: "https://www.linkedin.com/in/ali-a-rajabi-111506211/"
+
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+#   highlight:
+#     noClasses: false
+
+# services:
+#   instagram:
+#     disableInlineCSS: true
+#   twitter:
+#     disableInlineCSS: true
