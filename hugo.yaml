@@ -4,6 +4,16 @@ title: Graphic Tracer
 paginate: 5
 theme: ["PaperMod"]
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: true
+buildExpired: false
+enableEmoji: false
+
+hidemeta: true
+hideSummary: true
+
 menu:
   main:
     - name: Archive
@@ -20,6 +30,7 @@ menu:
     - name: Github
       url: https://github.com/Ali-RJ
 
+
 outputs:
   home:
     - HTML
@@ -34,6 +45,9 @@ params:
       low level programming. Want to learn more about me? Then head over to the "[About Me]"
       (#about)
   socialIcons:
+    - name: Email
+      title: Emial
+      url: mailto:ali.rajabi20@yahoo.com
     - name: github
       title: My Github Profile
       url: "https://github.com/Ali-RJ"

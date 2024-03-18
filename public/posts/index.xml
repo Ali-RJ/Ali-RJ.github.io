@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Graphic Tracer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 11:44:12 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 11:38:57 +0330</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <pubDate>Sun, 17 Mar 2024 11:38:57 +0330</pubDate>
+      <guid>http://localhost:1313/posts/third/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Second</title>
+      <link>http://localhost:1313/posts/second/</link>
+      <pubDate>Sun, 17 Mar 2024 11:38:52 +0330</pubDate>
+      <guid>http://localhost:1313/posts/second/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Sun, 17 Mar 2024 11:38:46 +0330</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Temp2</title>
       <link>http://localhost:1313/posts/temp2/</link>
