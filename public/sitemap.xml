@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ali-rj.github.io/</loc>
     <lastmod>2024-03-17T11:38:57+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://ali-rj.github.io/posts/</loc>
     <lastmod>2024-03-17T11:38:57+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/third/</loc>
+    <loc>https://ali-rj.github.io/posts/third/</loc>
     <lastmod>2024-03-17T11:38:57+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/second/</loc>
+    <loc>https://ali-rj.github.io/posts/second/</loc>
     <lastmod>2024-03-17T11:38:52+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>https://ali-rj.github.io/posts/first/</loc>
     <lastmod>2024-03-17T11:38:46+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/temp2/</loc>
+    <loc>https://ali-rj.github.io/posts/temp2/</loc>
     <lastmod>2024-03-16T11:44:12+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/temp/</loc>
+    <loc>https://ali-rj.github.io/posts/temp/</loc>
     <lastmod>2024-03-16T11:37:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ali-rj.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://ali-rj.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ali-rj.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://ali-rj.github.io/posts/my-first-post/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://ali-rj.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ali-rj.github.io/tags/</loc>
   </url>
 </urlset>
