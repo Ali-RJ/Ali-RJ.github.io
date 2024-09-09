@@ -22,49 +22,5 @@
       <guid>https://ali-rj.github.io/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</guid>
       <description>This is a simple clone of old famous game Legend of Zelda that I have created with my own 2D game engine. </description>
     </item>
-    <item>
-      <title>Third</title>
-      <link>https://ali-rj.github.io/posts/third/</link>
-      <pubDate>Sun, 17 Mar 2024 11:38:57 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/third/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://ali-rj.github.io/posts/second/</link>
-      <pubDate>Sun, 17 Mar 2024 11:38:52 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/second/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>https://ali-rj.github.io/posts/first/</link>
-      <pubDate>Sun, 17 Mar 2024 11:38:46 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/first/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Temp2</title>
-      <link>https://ali-rj.github.io/posts/temp2/</link>
-      <pubDate>Sat, 16 Mar 2024 11:44:12 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/temp2/</guid>
-      <description>This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    <item>
-      <title>Temp</title>
-      <link>https://ali-rj.github.io/posts/temp/</link>
-      <pubDate>Sat, 16 Mar 2024 11:37:16 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/temp/</guid>
-      <description>hello world.
-this is sample1</description>
-    </item>
-    <item>
-      <title>sada</title>
-      <link>https://ali-rj.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ali-rj.github.io/posts/my-first-post/</guid>
-      <description>My about page.</description>
-    </item>
   </channel>
 </rss>
