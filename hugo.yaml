@@ -39,7 +39,6 @@ outputs:
 
 params:
   homeInfoParams:
-    logo: "/logo.png"
     Title: "I'm Ali Rajabi, a Software Engineer"
     Content: >
       I am a Software Engineer interested in Computer Graphics and all sorts of
