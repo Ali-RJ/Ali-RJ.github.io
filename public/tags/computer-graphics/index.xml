@@ -13,8 +13,10 @@
       <link>http://localhost:1313/posts/anahita-render-engine/</link>
       <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
       <guid>http://localhost:1313/posts/anahita-render-engine/</guid>
-      <description>This is a renderer that I have developed for bachlor&amp;rsquo;s degree project. At the begining, I used Blinn-Phong rendering model for it and now I am working on implementing a physically-based rendering model. For controlling the objects in the scene from light sources to complicated mesh objects and for the sake of debugging, I also implemented a GUI using Dear ImGui.
-Here you can load meshes to the scene through GUI that under the hood uses Assimp library and beside that you can control each object attributes.</description>
+      <description>&lt;p&gt;This is a renderer that I have developed for the bachelor&amp;rsquo;s degree project. In the beginning, I used the Blinn-Phong rendering model for it and now I am working on implementing a physically-based rendering model. For controlling the objects in the scene from light sources to complicated mesh objects and for the sake of debugging, I also implemented a GUI using Dear ImGui.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/anahita/anahita-gui.png&#34; alt=&#34;View&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Here you can load meshes to the scene through GUI that under the hood uses the Assimp library and besides that, you can control each object&amp;rsquo;s attributes. There is a scene graph that controls all objects on the scene and in addition to these, you can add and configure different sources of light on the scene. Unfortunately, the shaders are hard-coded for now, but I plan to take care of that too in the future. Below the GUI there is a log widget that shows warnings errors and all other sorts of messages that you may need.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

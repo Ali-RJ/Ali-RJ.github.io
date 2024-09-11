@@ -1,10 +1,10 @@
 +++
-title = 'Barzin Inventory Management System'
+title = 'Inventory Management System Software'
 date = 2024-09-09T18:13:32+03:30
 cover = { image = "/images/barzin/barzin-cover.jpg"}
 tags = ["C++","Qt","GUI","Software","Database","Networking"]
 +++
-Barzin is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.
+This is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.
 For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers' orders,
 I tried to add some features to this software to make it distinctive from its common counterparts; feature like "Dark Mode" is one of my
 favorites among these features that I rarely see in common software in this area.
@@ -22,6 +22,7 @@ It's a fast and robust piece of software. By "robust", I mean you never need to 
 You can easily find your data through the vast major database that holds lots of data. You can manage the "Units" that you use for products so that you don't need to enter them all the time (regardless of the danger of redundant units) or you don't need to search through an overwhelming list of units.
 In Barzin, you can easily manage your customers as well. You can select your old customer when you need instead of entering their name every time.
 It is also flexible in case of different types of products that you may want to add to your database (some may have expiration dates and some don't for example). In the options, you would have a large number of items for configuring the software and fine-tuning different aspects of it.
+
 <div style="display: flex; justify-content: center;">
   <img src="/images/barzin/barzin-contact.jpg" alt="Contact Page" style="width: 80%;">
 </div>

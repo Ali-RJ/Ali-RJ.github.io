@@ -1,7 +1,6 @@
 baseURL: https://ali-rj.github.io/
 languageCode: en-us
 title: RenderForge
-paginate: 5
 theme: ["PaperMod"]
 
 # enableInlineShortcodes: true

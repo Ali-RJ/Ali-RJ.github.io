@@ -8,7 +8,9 @@
 <title>Anahita Render Engine | RenderForge</title>
 <meta name="keywords" content="Computer Graphics, OpenGL, C&#43;&#43;, Rendering">
 <meta name="description" content="This is a renderer that I have developed for the bachelor&rsquo;s degree project. In the beginning, I used the Blinn-Phong rendering model for it and now I am working on implementing a physically-based rendering model. For controlling the objects in the scene from light sources to complicated mesh objects and for the sake of debugging, I also implemented a GUI using Dear ImGui.
-Here you can load meshes to the scene through GUI that under the hood uses the Assimp library and besides that, you can control each object&rsquo;s attributes.">
+
+
+Here you can load meshes to the scene through GUI that under the hood uses the Assimp library and besides that, you can control each object&rsquo;s attributes. There is a scene graph that controls all objects on the scene and in addition to these, you can add and configure different sources of light on the scene. Unfortunately, the shaders are hard-coded for now, but I plan to take care of that too in the future. Below the GUI there is a log widget that shows warnings errors and all other sorts of messages that you may need.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/anahita-render-engine/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css" integrity="sha256-RZnq256yrT0KjWgntBqP2o8vSvImtjRmwJxf3byHBrc=" rel="preload stylesheet" as="style">
@@ -179,7 +181,7 @@ Here you can load meshes to the scene through GUI that under the hood uses the A
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">RenderForge</a></span>
+    <span>&copy; 2026 <a href="http://localhost:1313/">RenderForge</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
