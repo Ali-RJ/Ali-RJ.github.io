@@ -65,12 +65,11 @@ params:
       apple_touch_icon: "/icon/apple-touch-icon.png"
       safari_pinned_tab: "/icon/apple-touch-icon.png"
 
-# markup:
-#   goldmark:
-#     renderer:
-#       unsafe: true
-#   highlight:
-#     noClasses: false
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 # services:
 #   instagram:

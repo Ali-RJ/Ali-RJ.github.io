@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on RenderForge</title>
-    <link>https://ali-rj.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on RenderForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 18:13:32 +0330</lastBuildDate>
-    <atom:link href="https://ali-rj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;</title>
-      <link>https://ali-rj.github.io/tags/c&#43;&#43;/</link>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/c&#43;&#43;/</guid>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Database</title>
-      <link>https://ali-rj.github.io/tags/database/</link>
+      <link>http://localhost:1313/tags/database/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/database/</guid>
+      <guid>http://localhost:1313/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>GUI</title>
-      <link>https://ali-rj.github.io/tags/gui/</link>
+      <link>http://localhost:1313/tags/gui/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/gui/</guid>
+      <guid>http://localhost:1313/tags/gui/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://ali-rj.github.io/tags/networking/</link>
+      <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/networking/</guid>
+      <guid>http://localhost:1313/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Qt</title>
-      <link>https://ali-rj.github.io/tags/qt/</link>
+      <link>http://localhost:1313/tags/qt/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/qt/</guid>
+      <guid>http://localhost:1313/tags/qt/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://ali-rj.github.io/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Computer Graphics</title>
-      <link>https://ali-rj.github.io/tags/computer-graphics/</link>
+      <link>http://localhost:1313/tags/computer-graphics/</link>
       <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/computer-graphics/</guid>
+      <guid>http://localhost:1313/tags/computer-graphics/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenGL</title>
-      <link>https://ali-rj.github.io/tags/opengl/</link>
+      <link>http://localhost:1313/tags/opengl/</link>
       <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/opengl/</guid>
+      <guid>http://localhost:1313/tags/opengl/</guid>
       <description></description>
     </item>
     <item>
       <title>Rendering</title>
-      <link>https://ali-rj.github.io/tags/rendering/</link>
+      <link>http://localhost:1313/tags/rendering/</link>
       <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/rendering/</guid>
+      <guid>http://localhost:1313/tags/rendering/</guid>
       <description></description>
     </item>
     <item>
       <title>ECS</title>
-      <link>https://ali-rj.github.io/tags/ecs/</link>
+      <link>http://localhost:1313/tags/ecs/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/ecs/</guid>
+      <guid>http://localhost:1313/tags/ecs/</guid>
       <description></description>
     </item>
     <item>
       <title>Game Engine</title>
-      <link>https://ali-rj.github.io/tags/game-engine/</link>
+      <link>http://localhost:1313/tags/game-engine/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/game-engine/</guid>
+      <guid>http://localhost:1313/tags/game-engine/</guid>
       <description></description>
     </item>
     <item>
       <title>Game Engine Architecture</title>
-      <link>https://ali-rj.github.io/tags/game-engine-architecture/</link>
+      <link>http://localhost:1313/tags/game-engine-architecture/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/game-engine-architecture/</guid>
+      <guid>http://localhost:1313/tags/game-engine-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Video Game</title>
-      <link>https://ali-rj.github.io/tags/video-game/</link>
+      <link>http://localhost:1313/tags/video-game/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/tags/video-game/</guid>
+      <guid>http://localhost:1313/tags/video-game/</guid>
       <description></description>
     </item>
   </channel>

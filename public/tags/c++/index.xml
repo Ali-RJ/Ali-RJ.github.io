@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C&#43;&#43; on RenderForge</title>
-    <link>https://ali-rj.github.io/tags/c&#43;&#43;/</link>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on RenderForge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 18:13:32 +0330</lastBuildDate>
-    <atom:link href="https://ali-rj.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Barzin Inventory Management System</title>
-      <link>https://ali-rj.github.io/posts/barzin-inventory-management-system/</link>
+      <link>http://localhost:1313/posts/barzin-inventory-management-system/</link>
       <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/barzin-inventory-management-system/</guid>
-      <description>hello world</description>
+      <guid>http://localhost:1313/posts/barzin-inventory-management-system/</guid>
+      <description>Barzin is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system. For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&amp;rsquo; orders, I tried to add some features to this software to make it distinctive from its common counterparts; feature like &amp;ldquo;Dark Mode&amp;rdquo; is one of my favorites among these features that I rarely see in common software in this area.</description>
     </item>
     <item>
       <title>Anahita Render Engine</title>
-      <link>https://ali-rj.github.io/posts/anahita-render-engine/</link>
+      <link>http://localhost:1313/posts/anahita-render-engine/</link>
       <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/anahita-render-engine/</guid>
+      <guid>http://localhost:1313/posts/anahita-render-engine/</guid>
       <description></description>
     </item>
     <item>
       <title>My Clone of Retro Zelda in My 2D Game Engine</title>
-      <link>https://ali-rj.github.io/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</link>
+      <link>http://localhost:1313/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</guid>
+      <guid>http://localhost:1313/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</guid>
       <description>This is a simple clone of old famous game Legend of Zelda that I have created with my own 2D game engine. </description>
     </item>
   </channel>
