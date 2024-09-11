@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video Game on RenderForge</title>
+    <link>https://ali-rj.github.io/tags/video-game/</link>
+    <description>Recent content in Video Game on RenderForge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Sep 2024 17:01:33 +0330</lastBuildDate>
+    <atom:link href="https://ali-rj.github.io/tags/video-game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Clone of Retro Zelda in My 2D Game Engine</title>
+      <link>https://ali-rj.github.io/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</link>
+      <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
+      <guid>https://ali-rj.github.io/posts/my-clone-of-retro-zelda-in-my-2d-game-engine/</guid>
+      <description>This is a simple clone of old famous game Legend of Zelda that I have created with my own 2D game engine. </description>
+    </item>
+  </channel>
+</rss>

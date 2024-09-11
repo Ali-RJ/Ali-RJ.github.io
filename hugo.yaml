@@ -14,6 +14,10 @@ theme: ["PaperMod"]
 # hidemeta: true
 # hideSummary: true
 
+taxonomies:
+  tag: "tags"
+  category: "series"
+
 menu:
   main:
     - name: Archive
@@ -39,10 +43,10 @@ outputs:
 
 params:
   homeInfoParams:
-    Title: "I'm Ali Rajabi, a Software Engineer"
+    Title: "Ali Rajabi, Computer Engineer"
     Content: >
-      I am a Software Engineer interested in Computer Graphics and all sorts of
-      low level programming. Want to learn more about me? Then head over to the **[About Me](/about)**.
+      I am a Computer Engineer interested in Computer Graphics and all sorts of
+      system and low level programming. Want to learn more about me? Then head over to the **[About Me](/about)**.
   socialIcons:
     - name: Email
       title: Emial
@@ -54,8 +58,7 @@ params:
       title: My LinkedIn Profile
       url: "https://www.linkedin.com/in/ali-a-rajabi-111506211/"
 
-assets:
-      disableHLJS: false
+  assets:
       favicon: "/icon/favicon.ico"
       favicon16x16: "/icon/favicon-16x16.png"
       favicon32x32: "/icon/favicon-32x32.png"
