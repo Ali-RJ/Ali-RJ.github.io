@@ -54,6 +54,14 @@ params:
       title: My LinkedIn Profile
       url: "https://www.linkedin.com/in/ali-a-rajabi-111506211/"
 
+assets:
+      disableHLJS: false
+      favicon: "/icon/favicon.ico"
+      favicon16x16: "/icon/favicon-16x16.png"
+      favicon32x32: "/icon/favicon-32x32.png"
+      apple_touch_icon: "/icon/apple-touch-icon.png"
+      safari_pinned_tab: "/icon/apple-touch-icon.png"
+
 # markup:
 #   goldmark:
 #     renderer:
