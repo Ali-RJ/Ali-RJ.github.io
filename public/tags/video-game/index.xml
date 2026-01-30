@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Video Game on RenderForge</title>
-    <link>http://localhost:1313/tags/video-game/</link>
+    <link>https://ali-rj.github.io/tags/video-game/</link>
     <description>Recent content in Video Game on RenderForge</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Sep 2024 17:01:33 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/video-game/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ali-rj.github.io/tags/video-game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Retro Zelda Clone in My Own 2D Game Engine</title>
-      <link>http://localhost:1313/posts/retro-zelda-clone-in-my-own-2d-game-engine/</link>
+      <link>https://ali-rj.github.io/posts/retro-zelda-clone-in-my-own-2d-game-engine/</link>
       <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>http://localhost:1313/posts/retro-zelda-clone-in-my-own-2d-game-engine/</guid>
+      <guid>https://ali-rj.github.io/posts/retro-zelda-clone-in-my-own-2d-game-engine/</guid>
       <description>&lt;p&gt;This is a simple clone of the old famous game Legend of Zelda that I have created with my 2D game engine. I created an ECS 2D game engine using C++ and SFML (as a library for handling graphics and sound). Due to this software architecture, it is easy to create new levels in a script file and then use that file in the game as a level. I didn&amp;rsquo;t pick any specific scripting language for this and it has a simple format for now. But as one of my goals in this project, I want to adopt the Lua language for handling scripts as it gets more complicated.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@ I tried to add some features to this software to make it distinctive from its co
 favorites among these features that I rarely see in common software in this area.">
 <meta name="author" content="">
 <link rel="canonical" href="https://ali-rj.github.io/posts/inventory-management-system/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css" integrity="sha256-RZnq256yrT0KjWgntBqP2o8vSvImtjRmwJxf3byHBrc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://ali-rj.github.io/icon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://ali-rj.github.io/icon/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://ali-rj.github.io/icon/favicon-32x32.png">
@@ -42,40 +42,60 @@ favorites among these features that I rarely see in common software in this area
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:title" content="Inventory Management System Software" />
-<meta property="og:description" content="This is a software that I developed in C&#43;&#43; using the Qt library. I aimed to create a modern general inventory management system.
-For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&rsquo; orders,
-I tried to add some features to this software to make it distinctive from its common counterparts; feature like &ldquo;Dark Mode&rdquo; is one of my
-favorites among these features that I rarely see in common software in this area." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ali-rj.github.io/posts/inventory-management-system/" />
-<meta property="og:image" content="https://ali-rj.github.io/images/barzin/barzin-cover.jpg" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-09-09T18:13:32+03:30" />
-<meta property="article:modified_time" content="2024-09-09T18:13:32+03:30" />
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://ali-rj.github.io/images/barzin/barzin-cover.jpg" />
-<meta name="twitter:title" content="Inventory Management System Software"/>
+</script><meta property="og:url" content="https://ali-rj.github.io/posts/inventory-management-system/">
+  <meta property="og:site_name" content="RenderForge">
+  <meta property="og:title" content="Inventory Management System Software">
+  <meta property="og:description" content="This is a software that I developed in C&#43;&#43; using the Qt library. I aimed to create a modern general inventory management system. For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers’ orders, I tried to add some features to this software to make it distinctive from its common counterparts; feature like “Dark Mode” is one of my favorites among these features that I rarely see in common software in this area.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-09T18:13:32+03:30">
+    <meta property="article:modified_time" content="2024-09-09T18:13:32+03:30">
+    <meta property="article:tag" content="C&#43;&#43;">
+    <meta property="article:tag" content="Qt">
+    <meta property="article:tag" content="GUI">
+    <meta property="article:tag" content="Software">
+    <meta property="article:tag" content="Database">
+    <meta property="article:tag" content="Networking">
+    <meta property="og:image" content="https://ali-rj.github.io/images/barzin/barzin-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ali-rj.github.io/images/barzin/barzin-cover.jpg">
+<meta name="twitter:title" content="Inventory Management System Software">
 <meta name="twitter:description" content="This is a software that I developed in C&#43;&#43; using the Qt library. I aimed to create a modern general inventory management system.
 For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&rsquo; orders,
 I tried to add some features to this software to make it distinctive from its common counterparts; feature like &ldquo;Dark Mode&rdquo; is one of my
-favorites among these features that I rarely see in common software in this area."/>
+favorites among these features that I rarely see in common software in this area.">
 
 
 <script type="application/ld+json">
@@ -128,25 +148,13 @@ favorites among these features that I rarely see in common software in this area
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://ali-rj.github.io/" accesskey="h" title="RenderForge (Alt + H)">RenderForge</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -215,15 +223,15 @@ favorites among these features that I rarely see in common software in this area
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="https://ali-rj.github.io/images/barzin/barzin-cover.jpg" alt="">
+<figure class="entry-cover">
+        <img loading="eager" src="https://ali-rj.github.io/images/barzin/barzin-cover.jpg" alt="">
         
 </figure>
   <div class="post-content"><p>This is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.
 For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&rsquo; orders,
 I tried to add some features to this software to make it distinctive from its common counterparts; feature like &ldquo;Dark Mode&rdquo; is one of my
 favorites among these features that I rarely see in common software in this area.</p>
-<p><img loading="lazy" src="/images/barzin/barzin-night-mode.gif" alt="Dark Mode"  />
-</p>
+<p><img alt="Dark Mode" loading="lazy" src="/images/barzin/barzin-night-mode.gif"></p>
 <p>Based on this vision, I didn&rsquo;t try to create a super application that satisfies all your needs from managing your stash to organizing your checks. So Barzin is a more general one which indeed may let you down if you have some special needs; but on the other hand, if the core features could be enough for you, it would give you a suite of nice functionalities.</p>
 <div style="display: flex; justify-content: space-between;">
   <img src="/images/barzin/barzin-login.jpg" alt="Login" style="width: 50%;">
@@ -260,7 +268,8 @@ It is also flexible in case of different types of products that you may want to 
     </main>
     
 <footer class="footer">
-    <span>&copy; 2026 <a href="https://ali-rj.github.io/">RenderForge</a></span>
+        <span>&copy; 2026 <a href="https://ali-rj.github.io/">RenderForge</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -274,9 +283,14 @@ It is also flexible in case of different types of products that you may want to 
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -317,11 +331,12 @@ It is also flexible in case of different types of products that you may want to 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
