@@ -1,7 +1,7 @@
 +++
 title = 'Inventory Management System Software'
-date = 2024-09-09T18:13:32+03:30
-cover = { image = "/images/barzin/barzin-cover.jpg"}
+date = 2019-03-02T23:03:22+03:30
+cover = { image = "/images/barzin/barzin-cover1.jpg"}
 tags = ["C++","Qt","GUI","Software","Database","Networking"]
 +++
 This is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.

@@ -1,6 +1,6 @@
 +++
 title = 'Retro Zelda Clone in My Own 2D Game Engine'
-date = 2024-09-05T17:01:33+03:30
+date = 2023-01-05T17:01:33+03:30
 cover = { image = "/images/zelda/zelda-cover.png" }
 tags = ["Game Engine","Game Engine Architecture","C++","ECS","Video Game"]
 +++

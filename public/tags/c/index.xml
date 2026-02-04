@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C on RenderForge</title>
+    <link>http://localhost:1313/tags/c/</link>
+    <description>Recent content in C on RenderForge</description>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2025 05:21:43 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gandom Rasterizer</title>
+      <link>http://localhost:1313/posts/gandom-rasterizer/</link>
+      <pubDate>Fri, 05 Sep 2025 05:21:43 +0330</pubDate>
+      <guid>http://localhost:1313/posts/gandom-rasterizer/</guid>
+      <description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics
+APIs and even what are implemented physically on GPUs.
+In this project, I have implemented what graphics APIs and GPUs do to render
+and syntheis an image over the display, completely with a code which
+runs over CPU. Many algorithms were implemented in this software from rendering
+a triangle to clipping that triangle and back face culling and etc.
+Here are some images from Gandom:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

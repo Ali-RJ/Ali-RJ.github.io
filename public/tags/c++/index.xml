@@ -2,37 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C&#43;&#43; on RenderForge</title>
-    <link>https://ali-rj.github.io/tags/c&#43;&#43;/</link>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on RenderForge</description>
     <generator>Hugo -- 0.155.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2024 18:13:32 +0330</lastBuildDate>
-    <atom:link href="https://ali-rj.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 15:40:08 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Inventory Management System Software</title>
-      <link>https://ali-rj.github.io/posts/inventory-management-system/</link>
-      <pubDate>Mon, 09 Sep 2024 18:13:32 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/inventory-management-system/</guid>
-      <description>&lt;p&gt;This is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.
-For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&amp;rsquo; orders,
-I tried to add some features to this software to make it distinctive from its common counterparts; feature like &amp;ldquo;Dark Mode&amp;rdquo; is one of my
-favorites among these features that I rarely see in common software in this area.&lt;/p&gt;</description>
+      <title>Noora Ray Tracer</title>
+      <link>http://localhost:1313/posts/noora-ray-tracer/</link>
+      <pubDate>Fri, 04 Apr 2025 15:40:08 +0330</pubDate>
+      <guid>http://localhost:1313/posts/noora-ray-tracer/</guid>
+      <description>&lt;p&gt;Noora is a Ray Tracer that I have implemented as my personal prjoects, which comes from own passion
+for computer graphics and real-time rendering (though it is an off-line Ray Tracer now, but currently I am working on
+its real-time version). It is actually a Monte Carlo Path Tracer that I have implemented it based on Peter Shirley&amp;rsquo;s Ray Tracing
+series and his algorithms.&lt;/p&gt;
+&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/noora/cornelBox.png&#34; alt=&#34;Center of the map&#34; style=&#34;width: 100%;&#34;&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;future-works&#34;&gt;Future Works&lt;/h1&gt;
+&lt;p&gt;I have plan to add other ray tracing algorithms to this ray tracer and more advanced numerical algorithms to it.
+I also plan to change its backend to support CUDA, OpenGL and Vulkan.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Anahita Render Engine</title>
-      <link>https://ali-rj.github.io/posts/anahita-render-engine/</link>
-      <pubDate>Mon, 09 Sep 2024 18:02:19 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/anahita-render-engine/</guid>
+      <link>http://localhost:1313/posts/anahita-render-engine/</link>
+      <pubDate>Wed, 28 Jun 2023 05:43:23 +0330</pubDate>
+      <guid>http://localhost:1313/posts/anahita-render-engine/</guid>
       <description>&lt;p&gt;This is a renderer that I have developed for the bachelor&amp;rsquo;s degree project. In the beginning, I used the Blinn-Phong rendering model for it and now I am working on implementing a physically-based rendering model. For controlling the objects in the scene from light sources to complicated mesh objects and for the sake of debugging, I also implemented a GUI using Dear ImGui.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;View&#34; loading=&#34;lazy&#34; src=&#34;https://ali-rj.github.io/images/anahita/anahita-gui.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;View&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/anahita/anahita-gui.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Here you can load meshes to the scene through GUI that under the hood uses the Assimp library and besides that, you can control each object&amp;rsquo;s attributes. There is a scene graph that controls all objects on the scene and in addition to these, you can add and configure different sources of light on the scene. Unfortunately, the shaders are hard-coded for now, but I plan to take care of that too in the future. Below the GUI there is a log widget that shows warnings errors and all other sorts of messages that you may need.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Retro Zelda Clone in My Own 2D Game Engine</title>
-      <link>https://ali-rj.github.io/posts/retro-zelda-clone-in-my-own-2d-game-engine/</link>
-      <pubDate>Thu, 05 Sep 2024 17:01:33 +0330</pubDate>
-      <guid>https://ali-rj.github.io/posts/retro-zelda-clone-in-my-own-2d-game-engine/</guid>
+      <link>http://localhost:1313/posts/retro-zelda-clone-in-my-own-2d-game-engine/</link>
+      <pubDate>Thu, 05 Jan 2023 17:01:33 +0330</pubDate>
+      <guid>http://localhost:1313/posts/retro-zelda-clone-in-my-own-2d-game-engine/</guid>
       <description>&lt;p&gt;This is a simple clone of the old famous game Legend of Zelda that I have created with my 2D game engine. I created an ECS 2D game engine using C++ and SFML (as a library for handling graphics and sound). Due to this software architecture, it is easy to create new levels in a script file and then use that file in the game as a level. I didn&amp;rsquo;t pick any specific scripting language for this and it has a simple format for now. But as one of my goals in this project, I want to adopt the Lua language for handling scripts as it gets more complicated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inventory Management System Software</title>
+      <link>http://localhost:1313/posts/inventory-management-system/</link>
+      <pubDate>Sat, 02 Mar 2019 23:03:22 +0330</pubDate>
+      <guid>http://localhost:1313/posts/inventory-management-system/</guid>
+      <description>&lt;p&gt;This is a software that I developed in C++ using the Qt library. I aimed to create a modern general inventory management system.
+For this reason, in parallel with the core capabilities, say adding products with different attributes or registering customers&amp;rsquo; orders,
+I tried to add some features to this software to make it distinctive from its common counterparts; feature like &amp;ldquo;Dark Mode&amp;rdquo; is one of my
+favorites among these features that I rarely see in common software in this area.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 +++
 title = 'Anahita Render Engine'
-date = 2024-09-09T18:02:19+03:30
+date = 2023-06-28T05:43:23+03:30
 cover = { image = "/images/anahita/anahita-cover.jpg" }
 tags = ["Computer Graphics", "OpenGL", "C++", "Rendering"]
 +++
