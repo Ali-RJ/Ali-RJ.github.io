@@ -44,8 +44,8 @@ params:
   homeInfoParams:
     Title: "Ali Rajabi, Computer Engineer"
     Content: >
-      I am a Computer Engineer interested in Computer Graphics and all sorts of
-      system and low level programming. Want to learn more about me? Then head over to the **[About Me](/about)**.
+      I am a researcher driven by the challenges of Computer Graphics and High-Performance Computing (HPC).
+      Discover my detailed portfolio and experience on **[About Me](/about)**.
   socialIcons:
     - name: Email
       title: Emial
@@ -55,7 +55,7 @@ params:
       url: "https://github.com/Ali-RJ"
     - name: Linkedin
       title: My LinkedIn Profile
-      url: "https://www.linkedin.com/in/ali-a-rajabi-111506211/"
+      url: "https://www.linkedin.com/in/ali-rajabi-111506211/"
 
   assets:
       favicon: "/icon/favicon.ico"
