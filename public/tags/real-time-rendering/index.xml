@@ -13,29 +13,21 @@
       <link>http://localhost:1313/posts/gandom-rasterizer/</link>
       <pubDate>Fri, 05 Sep 2025 05:21:43 +0330</pubDate>
       <guid>http://localhost:1313/posts/gandom-rasterizer/</guid>
-      <description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics
-APIs and even what are implemented physically on GPUs.
-In this project, I have implemented what graphics APIs and GPUs do to render
-and syntheis an image over the display, completely with a code which
-runs over CPU. Many algorithms were implemented in this software from rendering
-a triangle to clipping that triangle and back face culling and etc.
-Here are some images from Gandom:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics APIs and even what are implemented physically on GPU dies.
+In this project, I have implemented the processes used by graphics APIs
+and GPUs to render and synthesize an image for display,
+implemented entirely in code running on a CPU. For the performance issues
+I leveraged SIMD instructions (AVX2) to improve its performance.
+I implemented key algorithms of the graphics pipeline,
+such as triangle clipping, back-face culling, and scanline rasterization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Noora Ray Tracer</title>
       <link>http://localhost:1313/posts/noora-ray-tracer/</link>
       <pubDate>Fri, 04 Apr 2025 15:40:08 +0330</pubDate>
       <guid>http://localhost:1313/posts/noora-ray-tracer/</guid>
-      <description>&lt;p&gt;Noora is a Ray Tracer that I have implemented as my personal prjoects, which comes from own passion
-for computer graphics and real-time rendering (though it is an off-line Ray Tracer now, but currently I am working on
-its real-time version). It is actually a Monte Carlo Path Tracer that I have implemented it based on Peter Shirley&amp;rsquo;s Ray Tracing
-series and his algorithms.&lt;/p&gt;
-&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/images/noora/cornelBox.png&#34; alt=&#34;Center of the map&#34; style=&#34;width: 100%;&#34;&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;future-works&#34;&gt;Future Works&lt;/h1&gt;
-&lt;p&gt;I have plan to add other ray tracing algorithms to this ray tracer and more advanced numerical algorithms to it.
-I also plan to change its backend to support CUDA, OpenGL and Vulkan.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Noora is a ray tracer began as a deep dive into the algorithms that bring virtual scenes to life. Starting with Peter Shirley&amp;rsquo;s accessible guides, I built a functional Monte Carlo path tracer—an offline renderer that simulates complex lighting effects like caustics and diffuse inter-reflection by tracing the path of light through a scene.&lt;/p&gt;
+&lt;p&gt;Currently, it is an offline renderer capable of producing images with global illumination, soft shadows, and realistic materials, but I am developing a GPU-accelerated, real-time version to explore the performance and algorithmic trade-offs between offline and interactive rendering.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

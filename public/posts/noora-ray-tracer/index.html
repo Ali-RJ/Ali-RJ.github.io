@@ -7,19 +7,11 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Noora Ray Tracer | RenderForge</title>
 <meta name="keywords" content="Ray Tracing, Rendering, C&#43;&#43;, Real-Time Rendering, CUDA">
-<meta name="description" content="Noora is a Ray Tracer that I have implemented as my personal prjoects, which comes from own passion
-for computer graphics and real-time rendering (though it is an off-line Ray Tracer now, but currently I am working on
-its real-time version). It is actually a Monte Carlo Path Tracer that I have implemented it based on Peter Shirley&rsquo;s Ray Tracing
-series and his algorithms.
-
-    
-
-Future Works
-I have plan to add other ray tracing algorithms to this ray tracer and more advanced numerical algorithms to it.
-I also plan to change its backend to support CUDA, OpenGL and Vulkan.">
+<meta name="description" content="Noora is a ray tracer began as a deep dive into the algorithms that bring virtual scenes to life. Starting with Peter Shirley&rsquo;s accessible guides, I built a functional Monte Carlo path tracer—an offline renderer that simulates complex lighting effects like caustics and diffuse inter-reflection by tracing the path of light through a scene.
+Currently, it is an offline renderer capable of producing images with global illumination, soft shadows, and realistic materials, but I am developing a GPU-accelerated, real-time version to explore the performance and algorithmic trade-offs between offline and interactive rendering.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/noora-ray-tracer/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.091dc3356dcbb58e166993ec0032a645694928629a7bca3d4ddecb5fcd68a1ac.css" integrity="sha256-CR3DNW3LtY4WaZPsADKmRWlJKGKae8o9Td7LX81ooaw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/icon/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/icon/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icon/favicon-32x32.png">
@@ -160,16 +152,37 @@ I also plan to change its backend to support CUDA, OpenGL and Vulkan.">
         <img loading="eager" src="http://localhost:1313/images/noora/RayTracer.png" alt="">
         
 </figure>
-  <div class="post-content"><p>Noora is a Ray Tracer that I have implemented as my personal prjoects, which comes from own passion
-for computer graphics and real-time rendering (though it is an off-line Ray Tracer now, but currently I am working on
-its real-time version). It is actually a Monte Carlo Path Tracer that I have implemented it based on Peter Shirley&rsquo;s Ray Tracing
-series and his algorithms.</p>
+  <div class="post-content"><p>Noora is a ray tracer began as a deep dive into the algorithms that bring virtual scenes to life. Starting with Peter Shirley&rsquo;s accessible guides, I built a functional Monte Carlo path tracer—an offline renderer that simulates complex lighting effects like caustics and diffuse inter-reflection by tracing the path of light through a scene.</p>
+<p>Currently, it is an offline renderer capable of producing images with global illumination, soft shadows, and realistic materials, but I am developing a GPU-accelerated, real-time version to explore the performance and algorithmic trade-offs between offline and interactive rendering.</p>
+<h2 id="key-features">Key Features<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h2>
+<ul>
+<li>
+<p><strong>Core Features:</strong> Accurate global illumination, anti-aliasing, depth-of-field, and support for various geometric primitives.</p>
+</li>
+<li>
+<p><strong>Material Model:</strong> Diffuse, metallic, and dielectric (glass) surfaces with configurable roughness.</p>
+</li>
+<li>
+<p><strong>Acceleration:</strong> A bounding volume hierarchy (BVH) for significantly faster ray-intersection tests.</p>
+</li>
+</ul>
 <div style="display: flex; justify-content: center;">
     <img src="/images/noora/cornelBox.png" alt="Center of the map" style="width: 100%;">
 </div>
-<h1 id="future-works">Future Works<a hidden class="anchor" aria-hidden="true" href="#future-works">#</a></h1>
-<p>I have plan to add other ray tracing algorithms to this ray tracer and more advanced numerical algorithms to it.
-I also plan to change its backend to support CUDA, OpenGL and Vulkan.</p>
+<h2 id="future-works">Future Works<a hidden class="anchor" aria-hidden="true" href="#future-works">#</a></h2>
+<ul>
+<li>A Formal Monte Carlo Integration Framework</li>
+<li>Importance Sampling with Probability Density Functions (PDFs)</li>
+<li>Direct and Explicit Light Source Sampling</li>
+<li>Advanced PDF Management for Path Weights</li>
+<li>Orthonormal Basis (ONB) Generation for Sampling</li>
+<li>Implementing a True Scattering PDF for Materials</li>
+<li>Cosine-Weighted Sampling for Diffuse Surfaces</li>
+<li>Mixture Densities for Combined BRDF &amp; Light Sampling</li>
+<li>Rendering Equation Mathematical Foundation</li>
+<li>Production-Ready Unbiased Path Tracer Architecture</li>
+<li>Change its backend to support CUDA, OpenGL or Vulkan.</li>
+</ul>
 
 
   </div>

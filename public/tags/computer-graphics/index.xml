@@ -13,13 +13,13 @@
       <link>http://localhost:1313/posts/gandom-rasterizer/</link>
       <pubDate>Fri, 05 Sep 2025 05:21:43 +0330</pubDate>
       <guid>http://localhost:1313/posts/gandom-rasterizer/</guid>
-      <description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics
-APIs and even what are implemented physically on GPUs.
-In this project, I have implemented what graphics APIs and GPUs do to render
-and syntheis an image over the display, completely with a code which
-runs over CPU. Many algorithms were implemented in this software from rendering
-a triangle to clipping that triangle and back face culling and etc.
-Here are some images from Gandom:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics APIs and even what are implemented physically on GPU dies.
+In this project, I have implemented the processes used by graphics APIs
+and GPUs to render and synthesize an image for display,
+implemented entirely in code running on a CPU. For the performance issues
+I leveraged SIMD instructions (AVX2) to improve its performance.
+I implemented key algorithms of the graphics pipeline,
+such as triangle clipping, back-face culling, and scanline rasterization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Anahita Render Engine</title>

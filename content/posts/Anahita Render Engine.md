@@ -4,6 +4,7 @@ date = 2023-06-28T05:43:23+03:30
 cover = { image = "/images/anahita/anahita-cover.jpg" }
 tags = ["Computer Graphics", "OpenGL", "C++", "Rendering"]
 +++
+
 This is a renderer that I have developed for the bachelor's degree project. In the beginning, I used the Blinn-Phong rendering model for it and now I am working on implementing a physically-based rendering model. For controlling the objects in the scene from light sources to complicated mesh objects and for the sake of debugging, I also implemented a GUI using Dear ImGui.
 
 ![View](/images/anahita/anahita-gui.png)
@@ -16,7 +17,7 @@ The core of the renderer is implemented via C++ and OpenGL. I implemented many b
   <img src="/images/anahita/anahita-shadow.png" alt="Shadow" style="width: 100%;">
 </div>
 
-# Future Plans
+## Future Plans
 - Implementing physically-based rendering model
 - Developing a versatile world-editor
 - Flexible editor for writing and changing shaders for each object

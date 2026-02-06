@@ -14,5 +14,5 @@ This is a simple clone of the old famous game Legend of Zelda that I have create
 As I said for now it is using SFML as a graphics library and I plan to drop it out and replace it with my own graphics framework that deals with graphics (the same thing for the sound system).
 For debugging and also for in-game menus I used Dear ImGui. Even though I can handle the menus via SFML, due to my plan for using OpenGL as the graphics library, I chose to use Dear ImGui cause it is exhausting work to implement menus and deal with texts in this library. In this specific game, I have implemented the backpack (inventory) in the Dear ImGui as well.
 
-# Future works
+## Future works
 Soon I will replace this clone with my own game which is still under development and as I said above I am going to implement the abilities of the library that I am currently using with my version.
