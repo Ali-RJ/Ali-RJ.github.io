@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="amberVolume3" cx="50%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#fff8b0"/>
+      <stop offset="45%" stop-color="#ffc107"/>
+      <stop offset="75%" stop-color="#ff8f00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6f00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="corkWood3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="50%" stop-color="#bcaaa4"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <filter id="bloom3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background Glow -->
+  <circle cx="32" cy="39" r="21" fill="url(#amberVolume3)" opacity="0.4" filter="url(#bloom3)"/>
+  <!-- Rustic Cork on Neck -->
+  <rect x="22" y="11" width="20" height="7" rx="1.5" fill="url(#corkWood3)" stroke="#3e2723" stroke-width="1.2"/>
+  <rect x="18" y="15.5" width="28" height="4.5" rx="2" fill="#ffe082" stroke="#ff8f00" stroke-width="1.3"/>
+  <line x1="18" y1="18" x2="46" y2="18" stroke="#8d6e63" stroke-width="1.6" stroke-dasharray="2 2"/>
+  <!-- Classic Mason Jar Outline -->
+  <path d="M20 20 H44 V24 C45 27 49 28 49 32 L49 52 C49 56.5 45.5 59.5 40 59.5 H24 C18.5 59.5 15 56.5 15 52 L15 32 C15 28 19 27 20 24 Z" fill="rgba(255, 245, 157, 0.15)" stroke="#ffca28" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- Volumetric Warm Pool -->
+  <ellipse cx="32" cy="42" rx="12" ry="11" fill="url(#amberVolume3)"/>
+  <!-- 4 Clustered Firefly Motives -->
+  <circle cx="28" cy="37" r="2.4" fill="#ffffff" filter="url(#bloom3)"/>
+  <circle cx="36" cy="43" r="2.2" fill="#ffffff" filter="url(#bloom3)"/>
+  <circle cx="34" cy="33" r="1.8" fill="#ffffff" filter="url(#bloom3)"/>
+  <circle cx="25" cy="47" r="1.5" fill="#fff9c4"/>
+  <!-- Subtle warm dust motes -->
+  <circle cx="41" cy="38" r="1" fill="#ffe082"/>
+  <circle cx="23" cy="41" r="0.9" fill="#ffecb3"/>
+  <!-- Specular highlights -->
+  <path d="M18 32 C18 29 21 27 24 25" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <line x1="18" y1="36" x2="18" y2="48" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" opacity="0.65"/>
+  <path d="M42 56 C44.5 55 46 53 46 49" stroke="#ffe082" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+</svg>

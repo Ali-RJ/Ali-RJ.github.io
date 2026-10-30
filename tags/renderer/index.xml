@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Renderer on Jar of Light</title><link>https://ali-rj.github.io/tags/renderer/</link><description>Recent content in Renderer on Jar of Light</description><generator>Hugo -- 0.155.0</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 05:21:43 +0330</lastBuildDate><atom:link href="https://ali-rj.github.io/tags/renderer/index.xml" rel="self" type="application/rss+xml"/><item><title>Gandom Rasterizer</title><link>https://ali-rj.github.io/posts/gandom-rasterizer/</link><pubDate>Fri, 05 Sep 2025 05:21:43 +0330</pubDate><guid>https://ali-rj.github.io/posts/gandom-rasterizer/</guid><description>&lt;p&gt;Gandom is a software rasterizer that mimics algorithms which are behind graphics APIs and even what are implemented physically on GPU dies.
+In this project, I have implemented the processes used by graphics APIs
+and GPUs to render and synthesize an image for display,
+implemented entirely in code running on a CPU. For the performance issues
+I leveraged SIMD instructions (AVX2) to improve its performance.
+I implemented key algorithms of the graphics pipeline,
+such as triangle clipping, back-face culling, and scanline rasterization.&lt;/p&gt;</description></item></channel></rss>
